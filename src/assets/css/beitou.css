@@ -1,0 +1,183 @@
+.tools-beitou-panel {
+  width: 100%;
+  font-size: 1.3rem;
+  height: auto;
+  overflow: hidden;
+}
+.tools-beitou-panel>li {
+  color: #999;
+  line-height: 3.5rem;
+  text-indent: .8rem;
+}
+.tools-beitou-panel>table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tools-beitou-panel>table td {
+  padding: .7rem .1rem .7rem .8rem;
+  height: 3rem;
+  line-height: 3rem;
+  background-color: #f8f8f8;
+  border-bottom: #f0f0f0 .1rem solid;
+}
+.tools-beitou-panel>table .input-1 {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+  line-height: 2.6rem;
+  text-indent: .5rem;
+  border: #ddd .1rem solid;
+}
+.rad{
+  margin-right: 1rem;
+}
+.radio {
+  display: inline-block;
+  position: relative;
+  text-indent: 1.35rem;
+}
+.radio .input1[type="radio"],.radio .input2[type="radio"] {
+  width: 0rem;
+  height: 0rem;
+}
+.radio input[type="radio"]:after {
+  content:'';
+  background-image: url("../../assets/images/radio.png");
+  background-size: 2rem 2rem;
+  width: 2rem;
+  height: 2rem;
+  position: absolute;
+  left: -0.5rem;
+  top: .5rem;
+}
+.radio input[type="radio"]:checked:after {
+  background-image: url("../../assets/images/radio-active.png");
+  background-size: 2rem 2rem;
+  width: 2rem;
+  height: 2rem;
+}
+.tools-beitou-panel>table .number-box {
+  width: auto;
+}
+.tools-beitou-panel>table .number-box>li {
+  float: left;
+  width: 2.3rem;
+  height: 2.3rem;
+  line-height: 2.3rem;
+  background-color: #ffffff;
+  margin-right: 0.15rem;
+  text-align: center;
+  border: #ddd .1rem solid;
+}
+.tools-beitou-panel>table .number-box .active {
+  border: #ef5b10 .1rem solid !important;
+  background-color: #ef5b10 !important;
+  color: #ffffff !important;
+}
+.tools-beitou-panel>table .input-2 {
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0;
+  font-size: 1.1rem;
+  text-align: center;
+  width: 2.8rem;
+  line-height: 1.9rem;
+  vertical-align: .1rem;
+  border: #ddd .1rem solid;
+}
+.tools-beitou-panel>table:first-of-type td:first-child {
+  width: 20%;
+}
+.tools-beitou-btn {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.tools-beitou-btn>ul {
+  height: auto;
+  overflow: hidden;
+  padding: 2rem;
+  display: flex;
+}
+.tools-beitou-btn>ul>li {
+  line-height: 3.4rem;
+  text-align: center;
+  border-radius: .3rem;
+  cursor: pointer;
+  flex: 1;
+}
+.tools-beitou-btn>ul>li:first-child {
+  background-color: #ffffff;
+  color: #777;
+  margin-right: 1.2rem;
+  border: #ddd .1rem solid;
+}
+.tools-beitou-btn>ul>li:last-child {
+  background-color: #ef5b10;
+  color: #ffffff;
+  border: #c14506 .1rem solid;
+}
+.tools-beitou-list {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: none;
+}
+.tools-beitou-list>li {
+  color: #999;
+  line-height: 3.6rem;
+  text-indent: .8rem;
+}
+.tools-beitou-list>table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tools-beitou-list>table th {
+  height: 3.5rem;
+  font-size: 1.3rem;
+  font-weight: normal;
+  color: #ffffff;
+  background-color: #3e9cec;
+}
+.tools-beitou-list>table tr {
+  background-color: #ffffff;
+}
+.tools-beitou-list>table tr:nth-child(odd) {
+  background-color: #f8f8f8;
+}
+.tools-beitou-list>table td {
+  height: 3.3rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+.tools-beitou-btn1 {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.tools-beitou-btn1>ul {
+  height: auto;
+  overflow: hidden;
+  padding: .2rem;
+}
+.tools-beitou-btn1>ul>li {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  border-radius: .3rem;
+  line-height: 3.5rem;
+  border: #ddd .1rem solid;
+}
+.tools-beitou-btn1>ul>li:first-child {
+  background-color: #ffffff;
+  color: #777;
+  margin-right: .1rem;
+  border: #ddd .1rem solid;
+}
+.tools-beitou-btn1>ul>li:last-child {
+  background-color: #ef5b10;
+  color: #ffffff;
+  border: #c14506 .1rem solid;
+}

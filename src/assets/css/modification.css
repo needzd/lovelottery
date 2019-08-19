@@ -1,0 +1,160 @@
+.big_tit{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding: 3.1rem 0 1rem 1.3rem;
+}
+.small_posi{
+    position: relative;
+    height: 3rem;
+}
+.small_tit{
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #999999;
+    padding-bottom: 1rem;
+    padding-left: 1.3rem;
+    display: none;
+    position: absolute;
+}
+.small_tit em{
+    color: #FBA243;
+}
+.number{
+    background: #F4F4F4;
+    color: #2d2d2d;
+    padding: 1.6rem 0 1.6rem 1.3rem;
+    border: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+.count_time{
+    border: none;
+    color: #999999;
+    background: none;
+    font-size: 1rem;
+    float: right;
+    padding-top: 1rem;
+    padding-right: 1.5rem;
+}
+.btnpwd .btnyzm{
+    margin-top: 1rem;
+}
+
+
+/* 修改资料 */
+.contentbox{
+  padding-top: 4.8rem!important;
+  box-sizing: border-box;
+}
+.contentbox ul{
+    padding-left: 1.3rem;
+}
+.xg_info{
+    border-bottom: 1px solid #eee;
+    padding: 2rem 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.xg_info  span:nth-child(1){
+    color: #333;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.xg_info  span:nth-child(2){
+    color:#999999;
+    font-size: 1.3rem;
+}
+.headimg{
+    width: 5.9rem;
+    height: 5.9rem;
+    border-radius: 50%;
+    display: inline-block;
+    padding-right: 4.5rem;
+}
+.headimg img{
+    width: 5.9rem;
+    height: 5.9rem;
+}
+.headimg_modal{
+  top:4.2rem!important;
+}
+.listimg{
+    position: absolute;
+    width: .8rem;
+    top: 2.1rem;
+    right: 1.2rem;
+    height: 1.2rem;
+}
+.name{
+  position: absolute;
+  right: 4rem;
+}
+.pwd_input{
+    background: #eee;
+}
+.name_input,.pwd_input{
+    border:none;
+    color: #666666;
+    font-size: 1.3rem;
+    padding: 1.5rem 0 1.5rem 1.4rem;
+}
+.content_name{
+    margin-top: 1rem;
+    background: #fff;
+}
+.content_name span{
+    color: #999999;
+    font-size: 1.1rem;
+    float: right;
+    padding: 1.5rem 2.9rem 1.5rem 0;
+}
+.content_pwd p{
+    color: #666666;
+    font-size: 1.3rem;
+    padding: 1.5rem 0 1.5rem 1.4rem;
+}
+.pwd_input{
+    width: 100%;
+    box-sizing: border-box;
+}
+.btnpwd{
+    padding:0 1.4rem;
+}
+.btnpwd .btn{
+    margin-top: 2rem;
+}
+
+.ts_text{
+    color: #FBA243;;
+    text-indent: 1.3rem;
+    padding-top: .5rem;
+    height: .8rem;
+    position: absolute;
+}
+.pwd_ts{
+    color: #FBA243;;
+    text-indent: 1.4rem;
+    padding-top: .5rem;
+    height: .8rem;
+}
+
+
+/* 按钮 */
+.btn{
+  background:linear-gradient(90deg,#6DB9FF 0%,#0188FB 100%);
+  border-radius:.4rem;
+  -webkit-border-radius:.4rem;
+  color: #fff;
+  font-size: 1.4rem;
+  line-height: 1.4rem;
+  text-align: center;
+  padding: 1.5rem 0;
+  border: none;
+  width: 100%;
+  margin-top: 3rem;
+}
+.btn[disabled]{
+  opacity: .5;
+}

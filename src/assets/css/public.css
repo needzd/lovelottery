@@ -1,0 +1,85 @@
+/*公告样式*/
+html,body,div,dl,dt,dd,ol,ul,li,h1,h2,h3,h4,h5,h6,p,blockquote,pre,button,fieldset,form,input,legend,textarea,th,td{ 
+	margin:0;
+	padding:0;
+}
+html{
+    font-size: 10px!important
+}
+html,body{
+	height: 100%;
+}
+body{
+	font-family: "微软雅黑",Arial;
+	position: relative;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+em{
+	font-style: normal;
+}
+input,button{
+	outline: none;
+}
+
+
+
+/* 会员中心 */
+.box{
+    height: 100%;
+    background: #fff;
+}
+.head{
+    background: #fff;
+    padding: 1.5rem 1.3rem;
+	border-bottom: 1px solid #EEEEEE;
+}
+.headbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    -webkit-align-items: center;
+}
+.headbox span:nth-child(2){
+    font-size: 1.6rem;
+}
+.headbox img{
+    width: .9rem;
+    height: 1.5rem;
+}
+.content{
+    padding: 1.3rem 2rem;
+}
+.contentbox{
+	background: #fff;
+}
+.xgbox{
+    background: #eee;
+    height: 100%;
+}
+/* 按钮 */
+.btn{
+    background:linear-gradient(90deg,#6DB9FF 0%,#0188FB 100%);
+    border-radius:.4rem;
+    -webkit-border-radius:.4rem;
+    color: #fff;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    text-align: center;
+    padding: 1.5rem 0;
+    border: none;
+    width: 100%;
+    margin-top: 3rem;
+}
+.btn[disabled]{
+    opacity: .5;
+}
